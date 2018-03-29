@@ -13,5 +13,5 @@ java -jar -Dpom.version=<new_version> -Dpom.path=<path_to_project> dist/update-p
 
 # run jar file (inside project directory)
 ```shell
-java -jar -Dpom.version=<new_version> dist/update-pom-version*.jar 
+java -jar -Dpom.version=<new_version> update-pom-version*.jar 
 ```
