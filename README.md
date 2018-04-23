@@ -7,11 +7,11 @@ mvn clean package
 
 # run jar file (outside project directory)
 ```shell
-java -jar -Dpom.version=<new_version> -Dpom.path=<path_to_project> dist/update-pom-version*.jar 
+java -Dpom.version=<new_version> -Dpom.path=<path_to_project> -jar dist/update-pom-version*.jar 
 ```
 
 
 # run jar file (inside project directory)
 ```shell
-java -jar -Dpom.version=<new_version> update-pom-version*.jar 
+java -Dpom.version=<new_version> -jar update-pom-version*.jar 
 ```
